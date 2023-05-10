@@ -1,0 +1,23 @@
+:root {
+    --first-font: 'Castoro', serif;
+    --second-font: 'Montserrat', sans-serif;
+    --third-font: 'Ysabeau', sans-serif;
+
+}
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+    text-align: center;
+}
+
+.body-container {
+    border: 2px solid rgb(6, 4, 24);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.sample {
+    font-family: var(--second-font);
+    margin-bottom: 40px;
+    font-size: 20px;
+}
